@@ -1,98 +1,121 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>My First Website</title>
-  <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <style type="text/css">
-    body {
-          background-image: url("images/concrete_seamless.png");
-          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-          font-size: 18px;
-          line-height: 34px;
-          color: #777;
-          }
-    .main-container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-    }    
-    .btnsharp {
-        border-radius: 0;
-        font-family: Georgia, Times, "Times New Roman", serif;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 40px;
-        color: #fff;
-        text-align: center;
-        text-decoration: none;
-        background: #4aaaa5;
-        }
-    .navbar-default {
-      width: 100%;
-      margin: 0 0 30px;
-      overflow: auto;
-      color: #fff;
-      background: #fff;
-      border-bottom: 2px solid #ccc;
-      }
-    h1,
-    h2,
-    h3 {
-        font-family: Georgia, Times, "Times New Roman", serif;
-        font-weight: 700;
-        color: #4aaaa5;
-        } 
-    .navbar-brand2 {      
-  padding: 30px 0;
-  clear: both;
-  font-size: 16px;    
-  text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
-    } 
-    .workpic{
-      margin: 15px;      
-      }     
-  </style>
+  <title>Portfolio | Zakari Sangaré</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
+
 <body>
-<nav class="navbar navbar-default">
-    <div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-            <button type="button" class="btnsharp">
-            Zakari SANGAR&Eacute</button>
-            </a>
+            <a class="navbar-brand" href="index.html">Zakari Sangaré</a>
         </div>
-        <div class="text-center">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
     </div>
-</nav>
-<div class="container">
-  <div class="row">
-        <div class="main col-sm-3"><img class="workpic" src="images/im1.jpg" width="200" height="200">        
-        </div>
-        <div class="main col-sm-3"><img class="workpic" src="images/im2.jpg" width="200" height="200" /></div>
-  </div>
-  <div class="row">
-        <div class="main col-sm-3"><img class="workpic" src="images/im3.jpg" width="200" height="200" /></div>
-        <div class="main col-sm-3"><img class="workpic" src="images/im4.jpg" width="200" height="200" /></div>
-  </div>
-        <div class="row">
-        <div class="main col-sm-3"><img class="workpic" src="images/im5.jpg" width="200" height="200" /></div>    
-  </div>
-</div>
+  </nav>
+  
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <div class="main">
+            <h1>Portfolio</h1>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="thumbnail text-center">
+                      <a href="#"><img src="images/project.png" class="img-responsive" alt="Project 1"></a>
+                      <div class="caption">
+                          <a href="#"><p>Project 1</p></a>
+                      </div>
+                  </div>
+                </div>
+                
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="thumbnail text-center">
+                      <a href="#"><img src="images/network.png" class="img-responsive" alt="Project 2"></a>
+                      <div class="caption">
+                          <a href="#"><p>Project 2</p></a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="thumbnail text-center">
+                      <a href="#"><img src="images/resume.png" class="img-responsive" alt="Project 3"></a>
+                      <div class="caption">
+                          <a href="#"><p>Project 3</p></a>
+                      </div>
+                  </div>
+              </div>
 
-<nav class="navbar-brand2">
-  <a class="text-center" href="#">Copyright &copy; 2017 Zakari SANGAR&Eacute</a>
-</nav>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="thumbnail text-center">
+                      <a href="#"><img src="images/leader.png" class="img-responsive" alt="Project 4"></a>
+                      <div class="caption">
+                          <a href="#"><p>Project 4</p></a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="thumbnail text-center">
+                      <a href="#"><img src="images/study.png" class="img-responsive" alt="Project 5"></a>
+                      <div class="caption">
+                          <a href="#"><p>Project 5</p></a>
+                      </div>
+                  </div>
+                </div>
+              
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="thumbnail text-center">
+                      <a href="#"><img src="images/content.png" class="img-responsive" alt="Project 6"></a>
+                      <div class="caption">
+                          <a href="#"><p>Project 6</p></a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="sidebar col-sm-4">
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <p class="panel-title text-center">Connect with Me</p>
+              </div>
+              <div class="panel-body text-center">
+                <a href="https://github.com/vanmax75" target="_blank"><img class="social" src="images/github.png" alt="GitHub"/></a>
+                  <a href="https://www.linkedin.com/in/zakari-sangar%C3%A9-124a9717a/" target="_blank"><img class="social" src="images/linkedin.png" alt="LinkedIn"/></a>
+                  <a href="#" target="_blank"><img class="social" src="images/youtube.png" alt="Youtube"/></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+        <p class="footer-block text-center">Copyright &copy; 2019 Zakari Sangaré</p>
+      </div>
+  </footer>
+
 </body>
 </html>
+
