@@ -21,8 +21,9 @@ body {
 .navbar-default .navbar-brand {
   color: white;
   background-color: #4aaaa5;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
+  font-family: 'Merienda One', cursive;
 }
 
 .navbar-right a {
@@ -34,6 +35,7 @@ h1, h3 {
   border-bottom: 2px solid #ddd;
   margin-bottom: 30px;
   color: #4aaaa5;
+  
 }
 
 .authimg {
